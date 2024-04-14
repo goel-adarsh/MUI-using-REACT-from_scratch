@@ -1,0 +1,100 @@
+.carousel {
+  width: 800px;
+  margin: 100px auto;
+  padding: 32px 48px 32px 86px;
+
+  background-color: #087f5b;
+  border-radius: 8px;
+
+  display: flex;
+  gap: 86px;
+  align-items: center;
+
+  position: relative;
+}
+
+.carousel img {
+  height: 200px;
+  border-radius: 8px;
+  transform: scale(1.5);
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.25);
+}
+
+.testimonial-text {
+  color: #e6fcf5;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+
+.testimonial-author {
+  color: #c3fae8;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.testimonial-designation {
+  font-size: 12px;
+  color: #c3fae8;
+}
+
+/* Buttons for Navigation */
+.btn {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+
+  background-color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+}
+
+.btn .btn-icon {
+  width: 24px;
+  height: 24px;
+  stroke: #087f5b;
+}
+
+.btn-left {
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-right {
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+/* Track of slider */
+.dots {
+  display: flex;
+  gap: 12px;
+
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 32px);
+}
+
+.dot {
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border: 2px solid #087f5b;
+  border-radius: 50%;
+}
+
+.dot-fill {
+  background-color: #087f5b;
+}
